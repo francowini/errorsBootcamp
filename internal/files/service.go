@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	slash = "/"
+	slash = "//"
 	percent = "%"
 	ampersand = "&"
 	plusSign = "+"
