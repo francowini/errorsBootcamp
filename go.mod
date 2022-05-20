@@ -1,3 +1,3 @@
-module github.com/francowini/readerExample
+module github.com/francowini/errorsBootcamp
 
 go 1.17

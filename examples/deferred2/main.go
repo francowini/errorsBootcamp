@@ -26,4 +26,5 @@ func main() {
 	defer testStruct.foo3()
 	fmt.Println("hello previus panicking")
 	panic("oh no!")
+	fmt.Println("hello post panicking")
 }
