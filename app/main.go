@@ -13,8 +13,12 @@ const (
 )
 
 func main() {
+
+	// service instantiation
 	fileService := files.NewService()
 	commandsService := commands.NewService(fileService)
+
+	// program flow
 	file, err := commandsService.GetArgumentAndReturnFile()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "failed to create fury application: %s", err)
